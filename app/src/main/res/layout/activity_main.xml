@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/menuTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/arbutus_slab"
+        android:text="Life Management App"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="58dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="148dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_access_time_24" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="601dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="148dp"
+        android:orientation="vertical"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/alarmbtn"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="238dp"
+            android:layout_height="47dp"
+            android:layout_weight="0"
+            android:background="@drawable/roundbtn"
+            android:backgroundTint="#455877"
+            android:backgroundTintMode="add"
+            android:onClick="go2AlarmActivity"
+            android:text="Alarm"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/space1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/calendarbtn"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="238dp"
+            android:layout_height="47dp"
+            android:background="@drawable/roundbtn"
+            android:backgroundTint="#455877"
+            android:backgroundTintMode="add"
+            android:onClick="go2CalendarActivity"
+            android:text="Calendar"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/space2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/notebtn"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="238dp"
+            android:layout_height="47dp"
+            android:background="@drawable/roundbtn"
+            android:backgroundTint="#455877"
+            android:backgroundTintMode="add"
+            android:onClick="go2NotesActivity"
+            android:text="Notes"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/space3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/checklistbtn"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="238dp"
+            android:layout_height="47dp"
+            android:background="@drawable/roundbtn"
+            android:backgroundTint="#455877"
+            android:backgroundTintMode="add"
+            android:onClick="go2ChecklistActivity"
+            android:text="Checklist"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/space4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/settingsbtn"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="238dp"
+            android:layout_height="47dp"
+            android:background="@drawable/roundbtn"
+            android:backgroundTint="#455877"
+            android:backgroundTintMode="add"
+            android:onClick="go2SettingsActivity"
+            android:text="Settings and Help"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="58dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="210dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_calendar_month_24" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="58dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="272dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_event_note_24" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="58dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="340dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_checklist_rtl_24" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="58dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="408dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_settings_24" />
+
+    <TextView
+        android:id="@+id/readNameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="108dp"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="52dp"
+        android:text="Hello There"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/readNameId"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

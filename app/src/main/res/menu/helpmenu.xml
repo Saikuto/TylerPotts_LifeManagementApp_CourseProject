@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/purposeId"
+        android:title="Purpose" />
+    <item
+        android:id="@+id/timerId"
+        android:title="New Timer" />
+    <item
+        android:id="@+id/alarmId"
+        android:title="New Alarm" />
+    <item
+        android:id="@+id/calendarId"
+        android:title="Calendar Event" />
+    <item
+        android:id="@+id/notesId"
+        android:title="New Note" />
+    <item
+        android:id="@+id/checklistId"
+        android:title="New Checklist" />
+
+</menu>

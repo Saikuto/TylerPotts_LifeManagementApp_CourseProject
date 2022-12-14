@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TylerPotts_LifeManagementApp_CourseProject</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="email_address">Enter your email address</string>
+    <string name="password">Enter your password</string>
+    <string name="name">Enter your name</string>
+    <string name="city">Enter your city</string>
+    <string name="country">Enter your country</string>
+    <string name="phone_number">Enter your phone number</string>
+</resources>

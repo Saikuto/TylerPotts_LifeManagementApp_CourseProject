@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "861307010353",
+    "project_id": "tylerpottslab10",
+    "storage_bucket": "tylerpottslab10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861307010353:android:4bf6c9c461418a6e2c0410",
+        "android_client_info": {
+          "package_name": "com.example.tylerpotts_lifemanagementapp_courseproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861307010353-h3tgu0nb0nec8fqqccvnp31oc16vp5n2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuXFCxLfneEci1HwrdurmG9HK8iH7Hnlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861307010353-h3tgu0nb0nec8fqqccvnp31oc16vp5n2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861307010353:android:df57d78e4af6d9e52c0410",
+        "android_client_info": {
+          "package_name": "com.example.tylerpottslab10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861307010353-h3tgu0nb0nec8fqqccvnp31oc16vp5n2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuXFCxLfneEci1HwrdurmG9HK8iH7Hnlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861307010353-h3tgu0nb0nec8fqqccvnp31oc16vp5n2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
